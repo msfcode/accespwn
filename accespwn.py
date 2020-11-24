@@ -3,9 +3,7 @@ import os
 import sys
 import socket
 import time 
-import pyfiglet
-name = pyfiglet.figlet_format("AccesPwn")
-print(name+          'developped by msfcode' )
+print('developped by msfcode' )
 print("")
 print("")
 print("")
