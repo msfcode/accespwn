@@ -1,3 +1,4 @@
+#!/bin/bash/env python3 
 #dev by msfcode
 #You don't have the permission to modifief my code
 #I'm not responsable of your actions
