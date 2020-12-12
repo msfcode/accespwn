@@ -6,9 +6,9 @@ it build to be simple to use , help command is always at Accespwn for you...
 At this version you will find :
 # OPTIONS
 information gatherning-
-IP scanning-
+(IP scanning)
 client-side attack- 
-Backdoor generating (listen to windows machine )
+[Backdoor generating (listen to windows machine )]
            
 # Contact-me:
      https://www.instagram.com/msfcode
