@@ -18,7 +18,7 @@ At this version you will find :
      
      root@kali:~# cd accespwn 
      
-     root@kali:~#./setup  (Run the setup file before anithing)
+     root@kali:~#./setup  (Run the setup file before anything)
      
      root@kali:~# cd run
      
