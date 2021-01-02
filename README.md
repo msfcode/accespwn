@@ -15,6 +15,12 @@ At this version you will find :
  have you any idea or project you want to add to my tool.. SO just contact me !!
  # install Accespwn
      root@kali:~# git clone https://github.com/msfcode/accespwn
-     root@kali:~# cd accespwn
-     root@kali:~# python3 accespwn
+     
+     root@kali:~# cd accespwn 
+     
+     root@kali:~#./setup  (Run the setup file before anithing)
+     
+     root@kali:~# cd run
+     
+     root@kali:!#./accespwn
     
