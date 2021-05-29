@@ -94,7 +94,9 @@ sslstrip()
 print(''' \u001b[33m
 
 					       Good Job, Dude, now you are ready to use accespwn
-						             ./accespwn
+						             python3 accespwn.py
+							     and choose (n) to get acces directly without
+							     command line
 				  (this tool is for educationaly purpose , i'm not responsable of your actions)
 
 					  [+]instagram : msfcode if you have any question about this tool[+]
