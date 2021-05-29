@@ -28,6 +28,7 @@ If you want to help us , to keep going and try to add new options and attacks or
    
    
    # Installation 🔶
+   NB : Be root before using it (sudo su)
    ##    step 1 (launch setup file)
     root@kali:~# python3 setup.py
         NB : if you get any errors contact msfcode at instagram.com
