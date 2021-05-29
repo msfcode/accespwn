@@ -32,4 +32,6 @@ If you want to help us , to keep going and try to add new options and attacks or
     root@kali:~# python3 setup.py
         NB : if you get any errors contact msfcode at instagram.com
         
+   ##    step 2
+   
        
