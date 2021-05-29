@@ -32,6 +32,10 @@ If you want to help us , to keep going and try to add new options and attacks or
     root@kali:~# python3 setup.py
         NB : if you get any errors contact msfcode at instagram.com
         
-   ##    step 2
+   ##    step 2 (execute accespwn tool)
+    root@kali:~# pyhon3 accespwn.py --help
+     NB : type y after enter this command if you want to use the Command line interface
+    Or 
+    root@kali:~# python3 accespwn.py
    
        
