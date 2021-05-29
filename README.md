@@ -9,4 +9,6 @@ At this moment im working at Login Page BruteForcing and Web App vulnerability s
 
 i will work at Exploits, i will add some exploits that is coded by me, also i will make an smart Fuzzer to generate exploit...
 
-
+# Donation 
+If you want to help us , to keep going and try to add new options and attacks or exploits :
+ Bitcoin : 
