@@ -11,4 +11,7 @@ i will work at Exploits, i will add some exploits that is coded by me, also i wi
 
 # Donation 
 If you want to help us , to keep going and try to add new options and attacks or exploits :
- Bitcoin : 
+   
+   Bitcoin : 3Ak4tm8ABHHLazDp18yeioRrAWoU3Wjxum
+   BAT (Basic Attention Token) : 0xa6c60D1BCeBCC9C6ADEDD8dC1F4228B3925556e3
+   ethereum: 0xEfD6B18a2c954289f0E3287c80391978Ef89bC7d
